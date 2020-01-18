@@ -1,11 +1,11 @@
-## ROS Melodic ROS Workspace
+# ROS Melodic ROS Workspace
 
-# Description
+## Description
 This repository contains the files necessary to build a Docker container that 
 runs on ROS Melodic and to launch the container that contains your catkin
 package to be built in a catkin workspace.
 
-# Instructions
+## Instructions
 
 1. If you don't have the container built: `./ros-workspace-build.sh`
 2. Once you have the container: `./ros-workspace-launch.sh`
