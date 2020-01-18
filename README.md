@@ -22,4 +22,13 @@ package to be built in a catkin workspace.
    workspace on my Docker container.
 4. Once the Docker container is launched and attached, you can simply `catkin_make`
    and test your code on the Docker container.
-5. The Docker container you are attached to is running tmux!
+5. The Docker container you are attached to is running `tmux`!
+
+# Disclaimer!!!
+
+For those of you using a non-Linux machine (shame on you!), please pay attention
+to `ros-workspace-launch.sh` and change the directory structure of the mounted package!
+
+Currently, I model this launch script based on a Linux filesystem assuming that 
+you place your code under `~/` directory. But if you're running OSX or Windows, 
+the directory to your package might be located differently.
